@@ -1,0 +1,26 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'webpack' 'firebase serve'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahytar/trello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahytar/trello/issues"
+  },
+  "homepage": "https://github.com/nahytar/trello#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "concurrently": "^3.6.1",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
+  }
+}

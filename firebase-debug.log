@@ -1,0 +1,107 @@
+[debug] [2018-08-10T04:23:47.620Z] ----------------------------------------------------------------------
+[debug] [2018-08-10T04:23:47.627Z] Command:       /home/nahytar/.nvm/versions/node/v8.11.3/bin/node /home/nahytar/.nvm/versions/node/v8.11.3/bin/firebase serve
+[debug] [2018-08-10T04:23:47.628Z] CLI Version:   4.0.2
+[debug] [2018-08-10T04:23:47.628Z] Platform:      linux
+[debug] [2018-08-10T04:23:47.628Z] Node Version:  v8.11.3
+[debug] [2018-08-10T04:23:47.628Z] Time:          Fri Aug 10 2018 00:23:47 GMT-0400 (-04)
+[debug] [2018-08-10T04:23:47.628Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-10T04:23:47.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-10T04:23:47.653Z] > authorizing via signed-in user
+[debug] [2018-08-10T04:23:47.659Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/proyecto-trello  
+  
+ Fri Aug 10 2018 00:23:47 GMT-0400 (-04)
+[debug] [2018-08-10T04:23:48.887Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-10T04:23:48.890Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/proyecto-trello/tokens  
+  
+ Fri Aug 10 2018 00:23:48 GMT-0400 (-04)
+[debug] [2018-08-10T04:23:49.601Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-10T04:23:49.604Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-trello  
+  
+ Fri Aug 10 2018 00:23:49 GMT-0400 (-04)
+[debug] [2018-08-10T04:23:50.802Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/proyectos/trello'...
+[info] 
+[debug] [2018-08-10T04:23:50.810Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/240722157073/clients/_:getWebAppConfig  
+  
+ Fri Aug 10 2018 00:23:50 GMT-0400 (-04)
+[debug] [2018-08-10T04:23:52.112Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-10T15:17:39.344Z] Error: connect EINVAL 64.233.186.94:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.348Z] Error: connect EINVAL 64.233.186.94:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.349Z] Error: connect EINVAL 64.233.186.94:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.350Z] Error: connect EINVAL 64.233.186.94:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.350Z] Error: connect EINVAL 64.233.186.94:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.351Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.353Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.353Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.354Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-08-10T15:17:39.354Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
