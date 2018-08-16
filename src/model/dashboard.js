@@ -1,12 +1,18 @@
-import list from './list'
+import listModel from './list'
 const listsCollection = [];
 
 const addNewList = () => {
-  listsCollection.push(list.createNewList())
+  listsCollection.push(listModel.createNewList())
 }
 
 const getLists = () => {
   return listsCollection;
 }
 
-export default { addNewList, getLists }
+const setListTitle = (listId, title) => {
+  return listsCollection.find((element) => {
+    return element.id == listId;
+  }).title = title;
+}
+
+export default { addNewList, getLists, setListTitle }
