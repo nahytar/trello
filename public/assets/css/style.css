@@ -5,39 +5,50 @@ body {
 
 header {
   width: 100%;
-  background: rgba(0,0,0,.15)
+  background: rgba(0, 0, 0, .15);
+  padding: 5px;
+  clear: both;
 }
 
 .boton {
-  background: hsla(0,0%,100%,.3);
-    border: 0;
-}
-
-.logo {
-height: 7vh;
-}
-
-.logo img {
-  height: 7vh;
-}
-
-.input {
-  padding: 1px;
-}
-
-.search {
-  background: hsla(0,0%,100%,.3);
+  background: hsla(0, 0%, 100%, .3);
   border: 0;
 }
 
-.btnRight {
-  margin: 5px 5px;
-  border-radius: 100px;
+.menuSection .boton {
+  width: 32px;
+  padding: 4px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.logo img {
+  height: 30px;
+  opacity: 0.7;
+}
+
+.input {
+  background-color: (0, 0%, 100%, .3);
+  border: 0;
+  width: 50%;
+  margin: 2px 0;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+.search {
+  background: hsla(0, 0%, 100%, .3);
+  border: 0;
 }
 
 .btnUser {
-  border-radius: 100px;
   margin: 0;
+}
+
+.btnCircle {
+  border-radius: 100px;
 }
 
 #nameBoard {
@@ -47,30 +58,84 @@ height: 7vh;
 }
 
 .tablero {
-  margin: 2px 2px;
   padding: 1px;
   text-align: center;
 }
 
-#inputSearch {
-  background-color: (0,0%,100%,.3);
-  border: 0;
-  height: 5;
-  width: 50%;
-  margin: 2px 0;
-  padding: 0;
-  
+.headerOptions {
+  height: 32px;
 }
 
-#search {
-  background-color: (0,0%,100%,.3);
+#inputSearch {
+  background-color: (0, 0%, 100%, .3);
   border: 0;
-  height: 5;
   width: 50%;
   margin: 2px 0;
   padding: 0;
+  color: #f6f6f6;
 }
 
 #listsArea {
   overflow-x: scroll;
+}
+
+.menuSection, .searchSection, logoSection {
+  display: inline;
+}
+
+.searchSection {
+  width: 300px;
+  float: left;
+}
+
+.logoSection {
+  width: 100px;
+  margin: auto;
+  float: none;
+}
+
+.menuSection {
+  width: 155px;
+  float: right;
+  margin-top: -30px;
+}
+
+.userOptions {
+  width: 70%;
+  margin: 0;
+  float: left;
+}
+
+.userOptions .btn {
+  height: 32px;
+}
+
+.optionsGrup {
+  float: left;
+  margin: 0 4px 0 0;
+  height: 32px;
+}
+
+.showMenu {
+  float: right;
+}
+
+.dashboardTitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.btnStar .btnUser {
+  background-color: rgba(0,0,0,.1);
+}
+
+.btnStar i {
+  color: #f2d600;
+}
+
+@media(max-width: 752px) {
+  .hiddenSmall {
+    display: none;
+  }
 }

@@ -26,72 +26,66 @@
 <body>
   <header>
     <div class="container-fluid">
-      <div class="flex-row row">
-        <div class="col-4 col-xs-3">
-          <div class="row">
-            <div class="dropdown col-4 tablero">
-              <a class="btn btn-primary boton" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                <i class="fab fa-trello"></i>
-                <span class="d-none d-sm-inline">Tableros</span>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+      <div class="searchSection">
+        <div class="flex-row row">
+          <div class="dropdown col-4 tablero btnTablero">
+            <a class="btn btn-primary boton headerOptions" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <i class="fab fa-trello"></i>
+              <span class="hiddenSmall">Tableros</span>
+            </a>
+            <div class="dropdown-menu headerOptions" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-            <div class="input-group col-4 input">
-              <input type="text" class="form-control search d-none d-sm-inline" id="inputSearch">
-              <div class="input-group-append">
-                <span class="input-group-text search" id="basic-addon2">
-                  <i class="fas fa-search icon-rotate" id="search"></i>
-                </span>
-              </div>
+          </div>
+          <div class="input-group col-8 btnTablero">
+            <input type="text" class="form-control search hiddenSmall headerOptions" id="inputSearch">
+            <div class="input-group-append">
+              <span class="input search headerOptions" id="basic-addon2">
+                <i class="fas fa-search icon-rotate" id="search"></i>
+              </span>
             </div>
           </div>
         </div>
-        <div class="col-3 col-xs-3">
-          <div class="row">
-            <div class="col-5"></div>
-            <div class="logo">
-              <img src="assets/img/header-logo.png" alt="">
-            </div>
+      </div>
+      <div class="logoSection">
+        <div class="row">
+          <div class="col-5"></div>
+          <div class="logo">
+            <img src="assets/img/header-logo.png" alt="">
           </div>
         </div>
-        <div class="col-5 col-xs-6">
-          <div class="row">
-            <div class="col-md-6 offset-md-6">
-              <div class="row">
-                <div class="col-3">
-                  <div class="btn-group" role="group" aria-label="Third group">
-                    <button type="button" class="btn btn-primary btnRight boton" id="btnRightPlus">
-                      <i class="fas fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class=".hidden-sm">
-                  <div class="btn-group" role="group" aria-label="Third group">
-                    <button type="button" class="btn btn-primary btnRight d-none d-sm-inline boton">
-                      <i class="fas fa-info-circle"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="btn-group" role="group" aria-label="Third group">
-                    <button type="button" class="btn btn-primary btnRight boton">
-                      <i class="far fa-bell"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="btn-group" role="group" aria-label="Third group">
-                    <button type="button" class="btn btn-primary btnUser boton">
-                      <i class="far fa-user-circle"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
+      </div>
+      <div class="menuSection">
+        <div class="row">
+          <div class="col-3">
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-primary boton headerOptions" id="btnRightPlus">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-3 hiddenSmall">
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-primary hiddenSmall boton headerOptions">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-primary boton headerOptions">
+                <i class="far fa-bell"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-primary btnUser boton headerOptions btnCircle">
+                <i class="far fa-user-circle"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -100,57 +94,44 @@
   </header>
 
   <section id="nameBoard">
-      <div class="row">
-        <div class="col-3"><!-- inicio 3 -->
-          <div class="row">
-            <div class="col-8 btn-trello">
-              <span>Tablero de bienvenida</span>
-            </div>
-            <div class="col-2">
-              <button type="button" class="btn btn-primary btnUser boton">
-                <i class="far fa-star"></i>
-              </button>
-            </div>
-            <span>|</span>
-          </div>
+    <div class="userOptions">
+      <div class="optionsGrup">
+        <span class="dashboardTitle">Tablero de bienvenida</span>
+        <span class="btnStar">
+          <button type="button" class="btn btn-primary btnUser boton">
+            <i class="far fa-star"></i>
+          </button>
+        </span>
+      </div>
+      <div class="optionsGrup">
+        <span>|</span>
+          <span>Personal</span>
+        <span>|</span>
+          <i class="fas fa-lock"></i> Privado
+        <span>|</span>
+      </div>
+      <div class="optionsGrup">
+        <div class="btn-group btnUserCircle" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-primary btnUser boton btnCircle">
+            <i class="far fa-user-circle"></i>
+          </button>
         </div>
-        <div class="col-3">
-          <div class="row">
-            <div class="col-3">
-              <span>Personal</span>
-            </div>
-            <span>|</span>
-            <div class="col-4">
-              <i class="fas fa-lock"></i> Privado
-            </div>
-            <span>|</span>
-            <div class="col-1 btn-group" role="group" aria-label="Third group">
-              <button type="button" class="btn btn-primary btnUser boton">
-                <i class="far fa-user-circle"></i>
-              </button>
-            </div>
-            <div class=" col-1 btn-group" role="group" aria-label="Third group">
-              <button type="button" class="btn btn-primary btnUser boton">
-                <i class="fab fa-trello"></i>
-              </button>
-            </div>
-            <div class="col-1 btn-group" role="group" aria-label="Third group">
-              <button type="button" class="btn btn-primary btnUser boton">
-                <i class="fas fa-user-plus"></i>
-              </button>
-            </div>
-          </div>
-        </div><!-- fin 6 -->
-        <div class="col-6">
-          <div class="row">
-            <div class="col-md-4 offset-md-8">
-                <span>
-                  <i class="fas fa-ellipsis-h"></i>Mostrar menú
-                </span>
-            </div>
-          </div>
+        <div class="btn-group btnTrello" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-primary btnUser boton btnCircle">
+            <i class="fab fa-trello"></i>
+          </button>
+        </div>
+        <div class="btn-group btnPlus" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-primary btnUser boton btnCircle">
+            <i class="fas fa-user-plus"></i>
+          </button>
         </div>
       </div>
+    </div>
+    <div class="showMenu">
+      <i class="fas fa-ellipsis-h"></i>Mostrar menú
+    </div>
+    <div class="clearfix"></div>
   </section>
 
   <section>
